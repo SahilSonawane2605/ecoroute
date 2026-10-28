@@ -1,0 +1,23 @@
+@'
+.agent/
+.agents/
+.claude/
+.cursor/
+.gemini/
+TACO-master/
+realwaste/
+ml/weights/
+*.pth
+*.pt
+*.onnx
+*.ipynb
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+frontend/dist/
+'@ | Set-Content .gitignore
